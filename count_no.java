@@ -15,3 +15,20 @@
 // 		count(12345);
 // 	}
 // }
+public class count_no{
+	public static void count(int no)
+	{
+		int count=0;
+		while(no>0)
+		{
+			no=no/10;
+			count++;
+
+		}
+	System.out.println(count);
+	}
+	public static void main(String arg[])
+	{
+		count(123454);
+	}
+}
