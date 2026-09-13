@@ -15,3 +15,17 @@
 // }
 
 
+public class product{
+	public static void main(String args[])
+	{
+		int product=0;
+		int no=12345;
+		while(no>0)
+		{
+			int rem=no%10;
+			product=product*rem;
+			no=no/10;
+		}
+		System.out.println("product of digit:"+prod);
+	}
+}
