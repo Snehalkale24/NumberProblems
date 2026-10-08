@@ -30,7 +30,15 @@ public class checkPositive{
         }
         else if(no<0)
         {
-            system.out.pri
+            system.out.println("negetive no:");
         }
+        else{
+            System.out.println("zero");
+        }
+    }
+    public static void main(String args[])
+    {
+        int no="1224455";
+        check(no);
     }
 }
