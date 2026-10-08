@@ -10,9 +10,7 @@ public class natural
 		int sum=0;
 		for(int i=2;i<n;i++)
 		{
-         
-           sum=i+sum;
-         
+           sum=i+sum; 
       }
           System.out.println("sum"+sum);	
       }		
