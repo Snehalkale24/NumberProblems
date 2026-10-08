@@ -19,3 +19,6 @@
 //         check(23);
 //     }
 // }
+
+import java.util.*;
+public class 
