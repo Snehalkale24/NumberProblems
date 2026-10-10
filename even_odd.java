@@ -20,19 +20,19 @@ import java.util.*;
 public class even_odd{
 	public static void even(int no)
 	{
-		Scanner s=new Scanner(System.in);
-		int n=s.nextInt();
 		if(no%2==0)
 		{
-			System.out.println("even:"+n);
+			System.out.println("even:"+no);
 		}
 		else{
-			System.out.println("odd:"+n);
+			System.out.println("odd:"+no);
 		}
 	}
 	public static void main(String args[])
 	{
+		Scanner s=new Scanner(System.in);
+		int n=s.nextInt();
 		even(n);
-		
+
 	}
 }
