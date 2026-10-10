@@ -25,17 +25,18 @@ public class largest_three_no{
 	public static void main(String args[])
 	{
 		int a=33;
-		int b=44;
-		int c=22;
+		int b=22;
+		int c=44;
 		if(a>b && a>c)
 		{
 			System.out.println("a is largest:"+a);
 		}
-		else if(b>c && b>a){
+		else if(b>c && b>a)
+		{
 			System.out.println("b is largest:"+b);
 		}
 		else{
-			System.out.println("c is:"+c);
+			System.out.println("c is :"+c);
 		}
 	}
 }
