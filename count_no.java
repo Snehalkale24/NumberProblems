@@ -23,12 +23,11 @@ public class count_no{
 		{
 			no=no/10;
 			count++;
-
 		}
-	System.out.println(count);
+		System.out.println("no of digit:"+count);
 	}
-	public static void main(String arg[])
+	public static void main(String args[])
 	{
-		count(123454);
+		count(1234);
 	}
 }
