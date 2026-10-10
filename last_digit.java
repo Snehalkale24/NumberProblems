@@ -17,7 +17,8 @@
 
 
 public class last_digit{
-	public static void last(int no)	{
+	public static void last(int no)
+	{
 		int last=0;
 		while(no>0)
 		{
