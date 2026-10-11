@@ -12,6 +12,20 @@
 // 	}
 // }
 
+// import java.util.*;
+// public class NaturalNoReverse{
+// 	public static void main(String args[])
+// 	{
+// 		int n=12;
+// 		while(n>=1)
+// 		{
+// 			System.out.println(n);
+// 			n--;
+// 		}
+// 		System.out.println(n);
+// 	}
+// }
+
 import java.util.*;
 public class NaturalNoReverse{
 	public static void main(String args[])
@@ -22,6 +36,5 @@ public class NaturalNoReverse{
 			System.out.println(n);
 			n--;
 		}
-		System.out.println(n);
 	}
 }
