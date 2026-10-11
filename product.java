@@ -18,14 +18,14 @@
 public class product{
 	public static void main(String args[])
 	{
-		int product=0;
 		int no=12345;
+		int prod=1;
 		while(no>0)
 		{
-			int rem=no%10;
-			product=product*rem;
+			int mul=no%10;
+			prod=prod*mul;
 			no=no/10;
 		}
-		System.out.println("product of digit:"+prod);
+		System.out.println("prod of digit"+prod);
 	}
 }
