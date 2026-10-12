@@ -20,6 +20,24 @@
 
 
 
+import java.util.*;
+public class sum_digit{
+	public static void sum(int no)
+	{
+		int sum=0;
+		while(no>0)
+		{
+			int noo=no%10;
+			sum=sum+noo;
+			no=no/10;
+		}
+		System.out.println("sum:"+sum);
+	}
+	public static void main(String args[])
+	{
+		sum(1234);
+	}
+}
 
 
 
