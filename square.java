@@ -24,5 +24,6 @@ public class square{
 	{
 		Scanner s=new Scanner(System.in);
 		int no=s.nextInt();
+		square(no);
 	}
 }
