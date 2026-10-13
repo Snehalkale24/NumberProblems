@@ -25,6 +25,6 @@ public class swap_two_no{
 	}
 	public static void main(String args[])
 	{
-		swap(12,44);
+		swap(12,33);
 	}
 }
