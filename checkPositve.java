@@ -21,24 +21,3 @@
 // }
 
 
-import java.util.*;
-public class checkPositive{
-    public static void check(int no)
-    {
-        if(no>0)
-        {
-            System.out.println("positive:");
-        }
-        else if(no<0)
-        {
-            System.out.println("negative");
-        }
-        else{
-            System.out.println("zero");
-        }
-    }
-    public static void main(String args[])
-    {
-        check(23);
-    }
-}
