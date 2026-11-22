@@ -15,3 +15,16 @@
 // 		count(12345);
 // 	}
 // }
+
+
+import java.util.*;
+public class count_no{
+	public static void main(String args[])
+	{
+		int count=0;
+		while(no>0)
+		{
+			s
+		}
+	}
+}
