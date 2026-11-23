@@ -17,3 +17,13 @@
 
 
 
+public class last_digit{
+    public static void main(String args[])
+    {
+        int last=0;
+        while(no>0)
+        {
+            last=no%10;
+        }
+    }
+}
