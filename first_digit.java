@@ -13,7 +13,18 @@
 // }
 
 
-
+public class first_digit{
+    public static void main(String args[])
+    {
+        int no=1234;
+        int rem=0;
+        while(no>0)
+        {
+            rem=no/10;
+        }
+        System.out.println(rem);
+    }
+}
 
 
 
